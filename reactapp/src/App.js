@@ -5,39 +5,40 @@ import './App.css'
 export default function App() {
 	const questions = [
 		{
-			questionText: 'What is the capital of France?',
+			questionText: 'Who is the father of your nation ?',
 			answerOptions: [
-				{ answerText: 'New York', isCorrect: false },
-				{ answerText: 'London', isCorrect: false },
-				{ answerText: 'Paris', isCorrect: true },
-				{ answerText: 'Dublin', isCorrect: false },
+				{ answerText: 'Mahatma Gandhi', isCorrect: true },
+				{ answerText: 'Jawaharlal Nehru', isCorrect: false },
+				{ answerText: 'Donald Trump', isCorrect: false },
+				{ answerText: 'Barrack Obama', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'Who is CEO of Tesla?',
+			questionText: 'What color is are the leaves ?',
 			answerOptions: [
-				{ answerText: 'Jeff Bezos', isCorrect: false },
-				{ answerText: 'Elon Musk', isCorrect: true },
-				{ answerText: 'Bill Gates', isCorrect: false },
-				{ answerText: 'Tony Stark', isCorrect: false },
+				{ answerText: 'Blue', isCorrect: false },
+				{ answerText: 'Red', isCorrect: false },
+				{ answerText: 'Yellow', isCorrect: false },
+				{ answerText: 'Green', isCorrect: true },
+			],
+		},
+
+		{
+			questionText: 'What color is the sky ?',
+			answerOptions: [
+				{ answerText: 'Blue', isCorrect: true },
+				{ answerText: 'Red', isCorrect: false },
+				{ answerText: 'AYellow', isCorrect: false },
+				{ answerText: 'Green', isCorrect: false },
 			],
 		},
 		{
-			questionText: 'The iPhone was created by which company?',
+			questionText: 'What color is the fire ?',
 			answerOptions: [
-				{ answerText: 'Apple', isCorrect: true },
-				{ answerText: 'Intel', isCorrect: false },
-				{ answerText: 'Amazon', isCorrect: false },
-				{ answerText: 'Microsoft', isCorrect: false },
-			],
-		},
-		{
-			questionText: 'How many Harry Potter books are there?',
-			answerOptions: [
-				{ answerText: '1', isCorrect: false },
-				{ answerText: '4', isCorrect: false },
-				{ answerText: '6', isCorrect: false },
-				{ answerText: '7', isCorrect: true },
+				{ answerText: 'Blue', isCorrect: false },
+				{ answerText: 'Red', isCorrect: false },
+				{ answerText: 'Yellow', isCorrect: true },
+				{ answerText: 'Green', isCorrect: false },
 			],
 		},
 	];
