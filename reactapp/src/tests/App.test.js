@@ -47,5 +47,11 @@ describe('Testing App Component', () => {
         wrapper.find('button').last().simulate('click');
         expect(wrapper.find('button').text()).toBe('Start Quiz');
 
+        wrapper.instance().setState({
+            questionsCorrect : 5
+        });
+
+        expect(wrapper.find('Banner').text()).toEqual("You have answered 5 / 5  Correctly")
+
     })
 })
