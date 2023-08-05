@@ -16,7 +16,7 @@ describe('Testing Button Component', () => {
     test('testcase9', () => {
         const TestingInput = 'Button Works'
     const wrapper = shallow(<Button>{TestingInput}</Button>)
-        expect(wrapper.text()).toBe(TestingInput)
+        expect(wrapper.props().children).toBe(TestingInput)
     })
 
 })
