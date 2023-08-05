@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { Banner } from './components/UI/Banner/Banner';
 import  Button from './components/UI/Button/Button';
-import './quizstyle.css'
+
 
 const App = () => {
     var Questionbank = [
@@ -106,14 +106,7 @@ const resetQuiz=()=>
 
     return (
         <div className='app'>
-       <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      
             {showScore ? (
                 <div className='score-section'>
                     <Banner/>
